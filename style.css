@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Merriweather&family=Montserrat:ital,wght@0,400;1,500&family=Sacramento&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fuzzy Bubbles', cursive;
+    background-color: #2296a5af;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: auto;
+    padding: 2.3rem;
+    text-align: center;
+    background-color: #58c2d0af;
+    border-bottom-left-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+
+}
+
+.bday, .output, .check{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 500;
+    flex: 1;
+}
+
+input{
+    font-size: 2rem;
+    margin: 1rem;
+    border-radius: 15px;
+    border:3px solid rgb(21, 50, 193);
+    padding: 5px;
+    text-align: center;
+}
+
+.output{
+    margin: 3rem;
+    padding: 0 5rem;
+    text-align: center;
+}
+
+.check{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.75rem;
+}
+
+button {
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    background: #1927e6;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: 2px solid #000000;
+}
+
+button:hover {
+    background: #1d80aaea;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.icons i{
+    margin: 0 2rem;
+    color: black;
+}
+
+.icons i:hover{
+    color: #d70f0f;
+}
+
+.bottom-container{
+    background-color: #95d6d1;
+    height: 100px;
+    width: 100%;
+    margin-top: auto;
+    padding: 1rem 0;
+}
+
+.footer-link{
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.copyright{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0.5rem;
+}
